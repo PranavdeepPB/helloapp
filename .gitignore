@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log
+.terraform/
+*.tfstate
+*.tfstate.backup
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
