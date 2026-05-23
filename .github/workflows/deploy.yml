@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "app/**"
+      - "helm/**"
+      - "terraform/**"
+      - ".github/workflows/**"
 
 env:
   AWS_REGION: ap-south-1
